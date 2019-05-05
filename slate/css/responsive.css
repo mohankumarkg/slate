@@ -32,23 +32,23 @@
     .container-fluid {
         width: 100%;
     }
-    #pixxett-api .header#header h1 {
+    #simple-slate-api .header#header h1 {
         display: inline-block;
         margin-left: 32%;
     }
     #documenter_sidebar {
         display: none;
     }
-    #pixxett-api .header-section-wrapper {
+    #simple-slate-api .header-section-wrapper {
         margin-top: 59px;
     }
-    #pixxett-api #background {
+    #simple-slate-api #background {
         display: none;
     }
-    #pixxett-api .method .method-area:first-child .method-example {
+    #simple-slate-api .method .method-area:first-child .method-example {
         padding-top: 20px;
     }
-    #pixxett-api .method-area-wrapper {
+    #simple-slate-api .method-area-wrapper {
         padding: 0px;
         border: none;
     }
@@ -56,27 +56,27 @@
         left: 0%;
         padding: 20px;
     }
-    #pixxett-api .method .method-copy {
+    #simple-slate-api .method .method-copy {
         padding: 0 0 20px;
         width: 100%;
     }
-    #pixxett-api .method .method-example {
+    #simple-slate-api .method .method-example {
         padding: 20px 20px 20px 20px;
         margin-left: 0%;
     }
     #documenter_content > section {
         padding-bottom: 0px;
     }
-    #pixxett-api .method .method-copy .method-copy-padding {
+    #simple-slate-api .method .method-copy .method-copy-padding {
         padding: 20px 0px 20px 0px;
     }
-    #pixxett-api .header-section.header-section-example {
+    #simple-slate-api .header-section.header-section-example {
         left: 0%;
         padding-left: 15px;
         width: 100%;
         padding-top: 3px;
     }
-    #pixxett-api #language .language-toggle li .language-toggle-button {
+    #simple-slate-api #language .language-toggle li .language-toggle-button {
         padding: 0 7px;
         border: 0px solid transparent;
         font-size: 11px;
@@ -85,15 +85,15 @@
     .table-responsive {
         border-width: 0px !important;
     }
-    #pixxett-api .method .method-example .table {
+    #simple-slate-api .method .method-example .table {
         margin: 0px 0px;
         max-width: inherit;
         overflow-x: auto;
     }
-    #pixxett-api .method .method-copy .method-list {
+    #simple-slate-api .method .method-copy .method-list {
         padding: 20px;
     }
-    #pixxett-api .method .method-example .method-example-part {
+    #simple-slate-api .method .method-example .method-example-part {
         padding: 0px;
     }
 
@@ -111,23 +111,23 @@
     .container-fluid {
         width: 100%;
     }
-    #pixxett-api header.header h1 {
+    #simple-slate-api header.header h1 {
         display: inline-block;
         margin-left: 15%;
     }
     #documenter_sidebar {
         display: none;
     }
-    #pixxett-api .header-section-wrapper {
+    #simple-slate-api .header-section-wrapper {
         margin-top: 59px;
     }
-    #pixxett-api #background {
+    #simple-slate-api #background {
         display: none;
     }
-    #pixxett-api .method .method-area:first-child .method-example {
+    #simple-slate-api .method .method-area:first-child .method-example {
         padding-top: 20px;
     }
-    #pixxett-api .method-area-wrapper {
+    #simple-slate-api .method-area-wrapper {
         padding: 0px;
         border: none;
     }
@@ -135,21 +135,21 @@
         left: 0%;
         padding: 20px;
     }
-    #pixxett-api .method .method-copy {
+    #simple-slate-api .method .method-copy {
         padding: 0 0 20px;
         width: 100%;
     }
-    #pixxett-api .method .method-example {
+    #simple-slate-api .method .method-example {
         padding: 20px 20px 20px 20px;
         margin-left: 0%;
     }
     #documenter_content > section {
         padding-bottom: 0px;
     }
-    #pixxett-api .method .method-copy .method-copy-padding {
+    #simple-slate-api .method .method-copy .method-copy-padding {
         padding: 20px 0px 20px 0px;
     }
-    #pixxett-api .header-section.header-section-example {
+    #simple-slate-api .header-section.header-section-example {
         left: 0%;
         padding-left: 15px;
         width: 100%;
@@ -158,7 +158,7 @@
     .table-responsive {
         border-width: 0px !important;
     }
-    #pixxett-api .header#header h1 {
+    #simple-slate-api .header#header h1 {
         display: inline-block;
         margin-left: 38%;
     }
@@ -170,14 +170,14 @@
     .mm-toggle-wrap {
         display: none;
     }
-    #pixxett-api .dx-nav-0-link {
+    #simple-slate-api .dx-nav-0-link {
         font-size: 11px;
         margin-right: 15px;
     }
-    #pixxett-api .dx-search-input {
+    #simple-slate-api .dx-search-input {
         width: 150px;
     }
-    #pixxett-api .dx-btn {
+    #simple-slate-api .dx-btn {
         font-size: 11px;
     }
     #documenter_sidebar ol a {
@@ -189,39 +189,39 @@
     #documenter_sidebar {
         width: 187px;
     }
-    #pixxett-api .method-area-wrapper {
+    #simple-slate-api .method-area-wrapper {
         width: 100%;
     }
-    #pixxett-api #background {
+    #simple-slate-api #background {
         left: 51%;
     }
-    #pixxett-api #background .background-actual {
+    #simple-slate-api #background .background-actual {
         left: 0%;
     }
-    #pixxett-api .method .method-copy {
+    #simple-slate-api .method .method-copy {
         padding: 0 0 20px;
     }
-    #pixxett-api .method .method-copy h1 {
+    #simple-slate-api .method .method-copy h1 {
         font-size: 22px;
         line-height: 24px;
     }
     #documenter_content > section {
         padding-bottom: 30px;
     }
-    #pixxett-api .method .method-copy .method-list {
+    #simple-slate-api .method .method-copy .method-list {
         padding: 15px 15px 0;
     }
-    #pixxett-api .method .method-copy .method-copy-padding {
+    #simple-slate-api .method .method-copy .method-copy-padding {
         padding: 20px 15px 20px 0px;
     }
-    #pixxett-api .method .method-example {
+    #simple-slate-api .method .method-example {
         padding: 45px 20px 20px 20px;
     }
-    #pixxett-api .header-section-wrapper {
+    #simple-slate-api .header-section-wrapper {
         margin-top: 59px;
         top: 0px;
     }
-    #pixxett-api .header-section.header-section-example {
+    #simple-slate-api .header-section.header-section-example {
         left: 0%;
         padding-left: 15px;
         width: 100%;
@@ -244,13 +244,13 @@
     div.scrollholder, #documenter_sidebar ol {
         height: 100%;
     }
-    #pixxett-api #background {
+    #simple-slate-api #background {
         left: 53.3%;
     }
-    #pixxett-api .header-section.header-section-example {
+    #simple-slate-api .header-section.header-section-example {
         padding-left: 20px;
     }
-    #pixxett-api #background .background-actual {
+    #simple-slate-api #background .background-actual {
         left: 0%;
     }
     #documenter_content {
@@ -259,66 +259,66 @@
     #documenter_content > section {
         padding-bottom: 30px;
     }
-    #pixxett-api .method .method-copy .method-copy-padding {
+    #simple-slate-api .method .method-copy .method-copy-padding {
         padding: 20px 15px 20px 0px;
     }
-    #pixxett-api .method .method-copy h1 {
+    #simple-slate-api .method .method-copy h1 {
         font-size: 20px;
         line-height: 28px;
     }
-    #pixxett-api .method .method-example {
+    #simple-slate-api .method .method-example {
         padding: 15px 20px 15px 20px;
     }
-    #pixxett-api .method .method-area:first-child .method-example {
+    #simple-slate-api .method .method-area:first-child .method-example {
         padding-top: 35px;
     }
-    #pixxett-api .method .method-copy {
+    #simple-slate-api .method .method-copy {
         padding: 0 0 15px;
     }
-    #pixxett-api h3 {
+    #simple-slate-api h3 {
         font-size: 14px;
         line-height: 20px;
     }
-    #pixxett-api .method .method-example .method-example-part {
+    #simple-slate-api .method .method-example .method-example-part {
         padding: 15px 0px;
     }
-    #pixxett-api .method .method-example .method-example-part .method-example-declaration:before,
-    #pixxett-api .method .method-example .method-example-part .method-example-endpoint:before,
-    #pixxett-api .method .method-example .method-example-part .method-example-object:before,
-    #pixxett-api .method .method-example .method-example-part .method-example-request:before,
-    #pixxett-api .method .method-example .method-example-part .method-example-response:before {
+    #simple-slate-api .method .method-example .method-example-part .method-example-declaration:before,
+    #simple-slate-api .method .method-example .method-example-part .method-example-endpoint:before,
+    #simple-slate-api .method .method-example .method-example-part .method-example-object:before,
+    #simple-slate-api .method .method-example .method-example-part .method-example-request:before,
+    #simple-slate-api .method .method-example .method-example-part .method-example-response:before {
         font-size: 12px;
     }
 }
 @media (min-width: 1200px) {
 
-    #pixxett-api .method .method-copy .method-list .method-list-group .method-list-item {
+    #simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item {
         zoom: 1;
     }
-    #pixxett-api .method .method-copy .method-list .method-list-group .method-list-item:after,
-    #pixxett-api .method .method-copy .method-list .method-list-group .method-list-item:before {
+    #simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item:after,
+    #simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item:before {
         content: "";
         display: table;
     }
-    #pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label {
+    #simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label {
         width: 180px;
     }
-    #pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label {
+    #simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label {
         position: relative;
         z-index: 5;
         float: left;
         text-align: right;
     }
-    #pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-description {
+    #simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-description {
         margin: 0 0 0 200px;
     }
-    #pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-description {
+    #simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-description {
         position: relative;
         z-index: 10;
         background: #fff;
     }
-    #pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label .method-list-item-label-details,
-    #pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label .method-list-item-validation {
+    #simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label .method-list-item-label-details,
+    #simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label .method-list-item-validation {
         display: block;
     }
 

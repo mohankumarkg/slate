@@ -1,27 +1,4 @@
-/*================================================================================
-  Item Name: API Themes
-  Description: Premium Bootstrap API Template
-  Author: Pixxett
-  Author URL: http://www.pixxett.com
-================================================================================*/
 
-/*------------------------------------------------------------------
-[Table of contents]
-
-1. Body
-2. Shortcuts
-3. Sidebar
-4. Content
-	a. Sidebar
-	b. Content
-	c. Pagination
-	d. sidebar
-	e. Navigation
-	f. Typography
--------------------------------------------------------------------*/
-
-
-/* 1. Body  */
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
     margin: 0;
@@ -380,7 +357,7 @@ ol li.child_1 a {
 
 /*------- 3. Sidebar --------*/
 
-#pixxett-api .header#header h1 {
+#simple-slate-api .header#header h1 {
     margin: 0px;
 }
 #documenter_sidebar #documenter_logo {
@@ -759,18 +736,18 @@ div.drag_bar {
 }
 
 
-#pixxett-api a {
+#simple-slate-api a {
     color: #08ce99;
     text-decoration: none;
 }
 
-#pixxett-api {
+#simple-slate-api {
     box-sizing: border-box;
     color: #444444;
     text-transform: none;
 }
 
-#pixxett-api .header {
+#simple-slate-api .header {
     border-bottom: 1px solid #67b798;
     display: block;
     position: fixed;
@@ -784,11 +761,11 @@ div.drag_bar {
     background-position: 0px 0px;
     background-repeat: repeat-x;
 }
-#pixxett-api .header__brand {
+#simple-slate-api .header__brand {
     display: block;
     padding: 11px 0px;
 }
-#pixxett-api .header__nav {
+#simple-slate-api .header__nav {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
@@ -798,7 +775,7 @@ div.drag_bar {
     justify-content: space-between;
     width: 100%;
 }
-#pixxett-api .header__nav--left, .header__nav--right {
+#simple-slate-api .header__nav--left, .header__nav--right {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
@@ -806,26 +783,26 @@ div.drag_bar {
     display: -ms-flexbox;
     display: flex;
 }
-#pixxett-api .header__nav--left{
+#simple-slate-api .header__nav--left{
     float: left;
 }
-#pixxett-api .header__nav--right {
+#simple-slate-api .header__nav--right {
     float: right;
 }
-#pixxett-api .block--outlined p,
-#pixxett-api .dx-nav-0 {
+#simple-slate-api .block--outlined p,
+#simple-slate-api .dx-nav-0 {
     margin-bottom: 0;
 }
-#pixxett-api .dx-nav-0 {
+#simple-slate-api .dx-nav-0 {
     list-style: none;
     padding: 0;
     margin:0px;
 }
-#pixxett-api .dx-nav-0-item {
+#simple-slate-api .dx-nav-0-item {
     float: left;
     list-style: none;
 }
-#pixxett-api .dx-nav-0-link {
+#simple-slate-api .dx-nav-0-link {
     color: #fff;
     display: block;
     font-size: 14px;
@@ -834,15 +811,15 @@ div.drag_bar {
     margin-right: 20px;
     position: relative;
 }
-#pixxett-api .dx-nav-active .dx-nav-0-link {
+#simple-slate-api .dx-nav-active .dx-nav-0-link {
     color: #fff;
     font-weight: 500;
 }
-#pixxett-api .dx-nav-0-link:focus, #pixxett-api .dx-nav-0-link:hover {
+#simple-slate-api .dx-nav-0-link:focus, #simple-slate-api .dx-nav-0-link:hover {
     color: #fff;
     text-decoration: none;
 }
-#pixxett-api .dx-nav-active .dx-nav-0-link:after {
+#simple-slate-api .dx-nav-active .dx-nav-0-link:after {
     background: rgba(0,0,0,0.25);
     bottom: 0;
     content: '';
@@ -852,7 +829,7 @@ div.drag_bar {
     right: 0;
     z-index: 30;
 }
-#pixxett-api .sr-only {
+#simple-slate-api .sr-only {
     position: absolute;
     width: 1px;
     height: 1px;
@@ -863,11 +840,11 @@ div.drag_bar {
     border: 0;
 }
 
-#pixxett-api .dx-search-input, .picker__btn {
+#simple-slate-api .dx-search-input, .picker__btn {
     font-weight: 400;
     font-size: 13px;
 }
-#pixxett-api .dx-search-input {
+#simple-slate-api .dx-search-input {
     border: 1px solid #e4e4e4;
     border-radius: 20px;
     color: #fff;
@@ -877,14 +854,14 @@ div.drag_bar {
     transition: .15s;
     width: 160px;
 }
-#pixxett-api input[type=search] {
+#simple-slate-api input[type=search] {
     -webkit-appearance: textfield;
     box-sizing: content-box;
 }
-#pixxett-api .header__search {
+#simple-slate-api .header__search {
     position: relative;
 }
-#pixxett-api .button-search {
+#simple-slate-api .button-search {
     background-color: transparent;
     border: none;
     font-size: 14px;
@@ -894,7 +871,7 @@ div.drag_bar {
     cursor: pointer;
 }
 
-#pixxett-api .dx-btn {
+#simple-slate-api .dx-btn {
     background-color: transparent;
     border: 1px solid #0070ba;
     border-radius: 1.5rem;
@@ -911,27 +888,27 @@ div.drag_bar {
     text-align: center;
     transition: all .15s ease-out;
 }
-#pixxett-api .dx-btn-primary, .dx-btn.active {
+#simple-slate-api .dx-btn-primary, .dx-btn.active {
     border-color: #fff;
     color: #fff;
 }
 
-#pixxett-api .dx-btn:active, .dx-btn:focus, .dx-btn:hover {
+#simple-slate-api .dx-btn:active, .dx-btn:focus, .dx-btn:hover {
     border-color: #fff;
     color: #333;
     text-decoration: none;
 }
-#pixxett-api .dx-btn-primary:active,
-#pixxett-api .dx-btn-primary:focus,
-#pixxett-api .dx-btn-primary:hover,
-#pixxett-api .dx-btn.active:active,
-#pixxett-api .dx-btn.active:focus,
-#pixxett-api .dx-btn.active:hover {
+#simple-slate-api .dx-btn-primary:active,
+#simple-slate-api .dx-btn-primary:focus,
+#simple-slate-api .dx-btn-primary:hover,
+#simple-slate-api .dx-btn.active:active,
+#simple-slate-api .dx-btn.active:focus,
+#simple-slate-api .dx-btn.active:hover {
     background-color: #fff;
     color: #333;
 }
 
-#pixxett-api .dx-main-nav-wrapper {
+#simple-slate-api .dx-main-nav-wrapper {
     width: 14.5%;
     display: inline-block;
     position: relative;
@@ -939,7 +916,7 @@ div.drag_bar {
 
 /* ----- e. Navigation ----- */
 
-#pixxett-api .dx-main-nav {
+#simple-slate-api .dx-main-nav {
     background: #f5f7fa;
     border-right: 1px solid #e4e4e4;
     bottom: 0;
@@ -949,17 +926,17 @@ div.drag_bar {
     top: 60px;
     width: 275px;
 }
-#pixxett-api .dx-nav-back {
+#simple-slate-api .dx-nav-back {
     border-bottom: 1px solid #e4e4e4;
     font-size: 15px;
     padding: 15px 25px;
 }
-#pixxett-api .dx-nav-back a {
+#simple-slate-api .dx-nav-back a {
     color: #6c7378;
     padding-left: 16px;
     position: relative;
 }
-#pixxett-api .dx-nav-back a::before {
+#simple-slate-api .dx-nav-back a::before {
     background: url(../images/back-arrow.png) no-repeat;
     content: '';
     height: 1rem;
@@ -968,58 +945,58 @@ div.drag_bar {
     top: 30%;
     width: 1rem;
 }
-#pixxett-api .dx-nav-1-title, .dx-nav-heading {
+#simple-slate-api .dx-nav-1-title, .dx-nav-heading {
     color: #fff;
     font-family: 'Noto Sans', sans-serif;
     font-size: 17px;
     font-weight: 500;
 }
-#pixxett-api .dx-nav {
+#simple-slate-api .dx-nav {
     font-size: 15px;
     list-style: none;
     padding-left: 0;
 }
-#pixxett-api .dx-nav a {
+#simple-slate-api .dx-nav a {
     color: #6c7378;
     display: inline-block;
 }
-#pixxett-api .dx-nav-active .dx-nav-heading a,
-#pixxett-api .dx-nav-active-parent .dx-nav-heading a,
-#pixxett-api .dx-nav-active-parent>a,
-#pixxett-api .dx-nav-active>a {
+#simple-slate-api .dx-nav-active .dx-nav-heading a,
+#simple-slate-api .dx-nav-active-parent .dx-nav-heading a,
+#simple-slate-api .dx-nav-active-parent>a,
+#simple-slate-api .dx-nav-active>a {
     color: #fff;
     font-weight: 600;
 }
-#pixxett-api .dx-nav-1 {
+#simple-slate-api .dx-nav-1 {
     padding: 25px;
 }
-#pixxett-api .dx-nav-2 {
+#simple-slate-api .dx-nav-2 {
     margin-top: 16px;
 }
-#pixxett-api .dx-nav-2 li,
-#pixxett-api .dx-nav-3 li,
-#pixxett-api .dx-nav-4 li,
-#pixxett-api .dx-nav-5 li {
+#simple-slate-api .dx-nav-2 li,
+#simple-slate-api .dx-nav-3 li,
+#simple-slate-api .dx-nav-4 li,
+#simple-slate-api .dx-nav-5 li {
     margin-top: 10px;
 }
-#pixxett-api .dx-nav-3,
-#pixxett-api .dx-nav-4,
-#pixxett-api .dx-nav-5 {
+#simple-slate-api .dx-nav-3,
+#simple-slate-api .dx-nav-4,
+#simple-slate-api .dx-nav-5 {
     border-left: 3px solid #e4e4e4;
     display: none;
     font-size: 13px;
     padding-left: 12px;
 }
-#pixxett-api .dx-nav-2 li.dx-nav-active .dx-nav-3,
-#pixxett-api .dx-nav-2 li.dx-nav-active-parent .dx-nav-3,
-#pixxett-api .dx-nav-3 li.dx-nav-active .dx-nav-4,
-#pixxett-api .dx-nav-3 li.dx-nav-active-parent .dx-nav-4,
-#pixxett-api .dx-nav-4 li.dx-nav-active .dx-nav-5,
-#pixxett-api .dx-nav-4 li.dx-nav-active-parent .dx-nav-5 {
+#simple-slate-api .dx-nav-2 li.dx-nav-active .dx-nav-3,
+#simple-slate-api .dx-nav-2 li.dx-nav-active-parent .dx-nav-3,
+#simple-slate-api .dx-nav-3 li.dx-nav-active .dx-nav-4,
+#simple-slate-api .dx-nav-3 li.dx-nav-active-parent .dx-nav-4,
+#simple-slate-api .dx-nav-4 li.dx-nav-active .dx-nav-5,
+#simple-slate-api .dx-nav-4 li.dx-nav-active-parent .dx-nav-5 {
     display: block;
 }
 
-#pixxett-api .header-section-wrapper {
+#simple-slate-api .header-section-wrapper {
     position: fixed;
     margin-top: 60px;
     overflow: hidden;
@@ -1030,7 +1007,7 @@ div.drag_bar {
     left: 0px;
     background: #2b2f3e;
 }
-#pixxett-api .header-section.header-section-example {
+#simple-slate-api .header-section.header-section-example {
     z-index: 10;
     height: 50px;
     color: #d0d4d7;
@@ -1038,22 +1015,22 @@ div.drag_bar {
     margin: auto;
 }
 
-#pixxett-api #language .language-toggle {
+#simple-slate-api #language .language-toggle {
     overflow: hidden;
     margin: 0px;
 }
 
-#pixxett-api #language .language-toggle li {
+#simple-slate-api #language .language-toggle li {
     float: left;
     position: relative;
     margin: 8px 2px 0;
 }
 
-#pixxett-api #language .language-toggle li:first-child {
+#simple-slate-api #language .language-toggle li:first-child {
     margin-left: 0;
 }
 
-#pixxett-api #language .language-toggle li .language-toggle-source {
+#simple-slate-api #language .language-toggle li .language-toggle-source {
     bottom: 0;
     left: 0;
     position: absolute;
@@ -1073,7 +1050,7 @@ div.drag_bar {
     filter: alpha(opacity=0);
 }
 
-#pixxett-api #language .language-toggle li .language-toggle-button {
+#simple-slate-api #language .language-toggle li .language-toggle-button {
     position: relative;
     z-index: 50;
     display: block;
@@ -1086,9 +1063,9 @@ div.drag_bar {
     line-height: 29px;
 }
 
-#pixxett-api #language .language-toggle .language-toggle-source:checked+.language-toggle-button,
-#pixxett-api #language .language-toggle .language-toggle-source:checked+.language-toggle-button:active,
-#pixxett-api #language .language-toggle .language-toggle-source:checked+.language-toggle-button:hover {
+#simple-slate-api #language .language-toggle .language-toggle-source:checked+.language-toggle-button,
+#simple-slate-api #language .language-toggle .language-toggle-source:checked+.language-toggle-button:active,
+#simple-slate-api #language .language-toggle .language-toggle-source:checked+.language-toggle-button:hover {
     background: #808af2;
     border-color: transparent;
     color: #fff;
@@ -1097,58 +1074,58 @@ div.drag_bar {
     animation: languageToggleShows .25s 1 ease-out;
 }
 
-#pixxett-api #language .language-toggle li:hover .language-toggle-button {
+#simple-slate-api #language .language-toggle li:hover .language-toggle-button {
     border-color: #373b3e;
 }
 
-#pixxett-api #language .language-toggle li:active .language-toggle-button {
+#simple-slate-api #language .language-toggle li:active .language-toggle-button {
     background: #33373a;
     border-color: #373b3e;
     color: #dde4e8;
 }
 
 
-#pixxett-api .method-area-wrapper {
+#simple-slate-api .method-area-wrapper {
     width: 100%;
     display: inline-block;
     position: relative;
     border-left: 1px solid #e4e4e4;
 }
 
-#pixxett-api .method .method-area {
+#simple-slate-api .method .method-area {
     position: relative;
     overflow: hidden;
 }
 
 
-#pixxett-api .method .method-copy {
+#simple-slate-api .method .method-copy {
     float: left;
     padding: 0 0 50px;
     width: 45%;
     z-index: 1;
 }
 
-#pixxett-api .method .method-area:first-child .method-copy {
+#simple-slate-api .method .method-area:first-child .method-copy {
     padding-top: 30px;
 }
-#pixxett-api .method .method-example {
+#simple-slate-api .method .method-example {
     position: relative;
     z-index: 2;
     padding: 70px 0 50px;
     color: #dde4e8;
 }
-#pixxett-api .method .method-copy .method-copy-padding {
+#simple-slate-api .method .method-copy .method-copy-padding {
     padding: 20px 40px;
 }
-#pixxett-api .method .method-copy p {
+#simple-slate-api .method .method-copy p {
     margin-bottom: 0;
     margin-top: 20px;
 }
-#pixxett-api .method .method-copy a {
+#simple-slate-api .method .method-copy a {
     color: #08ce99;
     text-decoration: none;
 }
-#pixxett-api #content {
+#simple-slate-api #content {
     bottom: 0;
     right: 0;
     position: absolute;
@@ -1160,7 +1137,7 @@ div.drag_bar {
     overflow-y: scroll;
     -webkit-overflow-scrolling: touch;
 }
-#pixxett-api .method {
+#simple-slate-api .method {
     position: relative;
     z-index: 2;
     display: block;
@@ -1168,32 +1145,32 @@ div.drag_bar {
 	padding-top: 65px;
 	margin-top: -65px;
 }
-#pixxett-api .method:first-child {
+#simple-slate-api .method:first-child {
     margin-top: 1px;
 }
-#pixxett-api .method:last-child {
+#simple-slate-api .method:last-child {
     padding-bottom: 50px;
 }
-#pixxett-api .method .method-area {
+#simple-slate-api .method .method-area {
     overflow: hidden;
 }
-#pixxett-api .method .method-copy {
+#simple-slate-api .method .method-copy {
     float: left;
     padding: 0 0 50px;
     width: 100%;
 }
-#pixxett-api .method .method-copy .method-copy-padding {
+#simple-slate-api .method .method-copy .method-copy-padding {
     padding: 20px 40px 20px 0px;
 }
-#pixxett-api .method .method-copy .method-copy-padding:last-child {
+#simple-slate-api .method .method-copy .method-copy-padding:last-child {
     padding-bottom: 0;
 }
 
-#pixxett-api p {
+#simple-slate-api p {
     margin-bottom: 0;
     margin-top: 20px;
 }
-#pixxett-api .method .method-example {
+#simple-slate-api .method .method-example {
     position: relative;
     z-index: 2;
     padding: 20px 20px 20px 20px;
@@ -1202,56 +1179,56 @@ div.drag_bar {
     width: 100%;
     background: #3a3e4e;
 }
-#pixxett-api .method .method-example .method-example-part {
+#simple-slate-api .method .method-example .method-example-part {
     padding: 20px 0px;
 }
-#pixxett-api h1,
-#pixxett-api h2,
-#pixxett-api h3,
-#pixxett-api h4,
-#pixxett-api h5 {
+#simple-slate-api h1,
+#simple-slate-api h2,
+#simple-slate-api h3,
+#simple-slate-api h4,
+#simple-slate-api h5 {
     color: #292e31;
 
     font-family: 'Roboto', sans-serif;
 }
-#pixxett-api .method .method-example h1,
-#pixxett-api .method .method-example h2,
-#pixxett-api .method .method-example h3,
-#pixxett-api .method .method-example h4,
-#pixxett-api .method .method-example h5 {
+#simple-slate-api .method .method-example h1,
+#simple-slate-api .method .method-example h2,
+#simple-slate-api .method .method-example h3,
+#simple-slate-api .method .method-example h4,
+#simple-slate-api .method .method-example h5 {
     max-width: 768px;
     color: #d0d4d7;
 }
 
-#pixxett-api p {
+#simple-slate-api p {
     margin-bottom: 0;
     margin-top: 20px;
 }
-#pixxett-api .method .method-example p {
+#simple-slate-api .method .method-example p {
     max-width: 768px;
 }
 
-#pixxett-api .method .method-example .method-example-part .method-example-declaration:last-child,
-#pixxett-api .method .method-example .method-example-part .method-example-endpoint:last-child,
-#pixxett-api .method .method-example .method-example-part .method-example-object:last-child,
-#pixxett-api .method .method-example .method-example-part .method-example-request:last-child,
-#pixxett-api .method .method-example .method-example-part .method-example-response:last-child {
+#simple-slate-api .method .method-example .method-example-part .method-example-declaration:last-child,
+#simple-slate-api .method .method-example .method-example-part .method-example-endpoint:last-child,
+#simple-slate-api .method .method-example .method-example-part .method-example-object:last-child,
+#simple-slate-api .method .method-example .method-example-part .method-example-request:last-child,
+#simple-slate-api .method .method-example .method-example-part .method-example-response:last-child {
     padding-bottom: 0;
 }
-#pixxett-api .method .method-example .method-example-part .method-example-declaration,
-#pixxett-api .method .method-example .method-example-part .method-example-endpoint,
-#pixxett-api .method .method-example .method-example-part .method-example-object,
-#pixxett-api .method .method-example .method-example-part .method-example-request,
-#pixxett-api .method .method-example .method-example-part .method-example-response {
+#simple-slate-api .method .method-example .method-example-part .method-example-declaration,
+#simple-slate-api .method .method-example .method-example-part .method-example-endpoint,
+#simple-slate-api .method .method-example .method-example-part .method-example-object,
+#simple-slate-api .method .method-example .method-example-part .method-example-request,
+#simple-slate-api .method .method-example .method-example-part .method-example-response {
     display: block;
     padding: 20px 0;
 }
 
-#pixxett-api .method .method-example .method-example-part .method-example-declaration:before,
-#pixxett-api .method .method-example .method-example-part .method-example-endpoint:before,
-#pixxett-api .method .method-example .method-example-part .method-example-object:before,
-#pixxett-api .method .method-example .method-example-part .method-example-request:before,
-#pixxett-api .method .method-example .method-example-part .method-example-response:before {
+#simple-slate-api .method .method-example .method-example-part .method-example-declaration:before,
+#simple-slate-api .method .method-example .method-example-part .method-example-endpoint:before,
+#simple-slate-api .method .method-example .method-example-part .method-example-object:before,
+#simple-slate-api .method .method-example .method-example-part .method-example-request:before,
+#simple-slate-api .method .method-example .method-example-part .method-example-response:before {
     display: block;
     padding-bottom: 8px;
     content: 'Definition';
@@ -1260,10 +1237,10 @@ div.drag_bar {
     font-size: 16px;
     font-weight: 500;
 }
-#pixxett-api .method .method-example .method-example-part .method-example-endpoint:before {
+#simple-slate-api .method .method-example .method-example-part .method-example-endpoint:before {
     content: 'API Endpoint';
 }
-#pixxett-api .method .method-example pre {
+#simple-slate-api .method .method-example pre {
     margin: 0;
     padding: 20px 40px;
     background: #2b2f3e;
@@ -1273,8 +1250,8 @@ div.drag_bar {
     line-height: 1.5em;
     font-weight: 500;
 }
-#pixxett-api .method .method-example code,
-#pixxett-api .method .method-example pre {
+#simple-slate-api .method .method-example code,
+#simple-slate-api .method .method-example pre {
     color: #d0d0d0;
     direction: ltr;
     text-align: left;
@@ -1289,25 +1266,25 @@ div.drag_bar {
     -ms-hyphens: none;
     hyphens: none;
 }
-#pixxett-api .method .method-copy .method-list {
+#simple-slate-api .method .method-copy .method-list {
     padding: 40px 40px 0;
 }
-#pixxett-api .method .method-copy .method-list .method-list-group {
+#simple-slate-api .method .method-copy .method-list .method-list-group {
     margin-top: 8px;
     border-top: 1px solid #e1e8ed;
 }
-#pixxett-api .method .method-copy .method-list .method-list-group .method-list-item {
+#simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item {
     padding: 17px 0;
     border-bottom: 1px solid #f0f4f7;
     line-height: 24px;
     list-style: none;
 }
-#pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label {
+#simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label {
     line-height: 21px;
     word-break: break-all;
     white-space: normal;
 }
-#pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label a.header-anchor {
+#simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label a.header-anchor {
     display: inline-block;
     opacity: 1;
     -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1323,10 +1300,10 @@ div.drag_bar {
     margin-right: -15px;
     isolation: isolate;
 }
-#pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-description {
+#simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-description {
     line-height: 21px;
 }
-#pixxett-api .method .method-copy code, #pixxett-api .method .method-copy tt {
+#simple-slate-api .method .method-copy code, #simple-slate-api .method .method-copy tt {
     box-sizing: border-box;
     display: inline-block;
     padding: 0 5px;
@@ -1338,18 +1315,18 @@ div.drag_bar {
     font-size: 13px;
     line-height: 20px;
 }
-#pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-description code,
-#pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-description tt {
+#simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-description code,
+#simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-description tt {
     font-size: 12px;
 }
-#pixxett-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label .method-list-item-label-details {
+#simple-slate-api .method .method-copy .method-list .method-list-group .method-list-item .method-list-item-label .method-list-item-label-details {
     color: #939da3;
     font-size: 12px;
     font-weight: 400;
     text-transform: none;
     word-break: normal;
 }
-#pixxett-api .method .method-example .table {
+#simple-slate-api .method .method-example .table {
     margin: 30px 0 45px;
     max-width: 800px;
     overflow: hidden;
@@ -1358,7 +1335,7 @@ div.drag_bar {
     border-radius: 5px;
     color: #d0d4d7;
 }
-#pixxett-api .method .method-example .table .table-header {
+#simple-slate-api .method .method-example .table .table-header {
     padding: 14px 20px;
     border-bottom: 1px solid #333848;
     color: #d0d4d7;
@@ -1368,64 +1345,64 @@ div.drag_bar {
     text-transform: uppercase;
 }
 
-#pixxett-api .method .method-example .table .table-header+.table-container {
+#simple-slate-api .method .method-example .table .table-header+.table-container {
     border-top: 0;
 }
-#pixxett-api .method .method-example .table .table-container tr:nth-child(odd) {
+#simple-slate-api .method .method-example .table .table-container tr:nth-child(odd) {
     background: rgba(0,0,0,.1);
 }
 
-#pixxett-api .method .method-example .table .table-container tr td,
-#pixxett-api .method .method-example .table .table-container tr th {
+#simple-slate-api .method .method-example .table .table-container tr td,
+#simple-slate-api .method .method-example .table .table-container tr th {
     display: table-cell;
     padding: 9px 20px;
     font-size: 13px;
     vertical-align: top;
 }
-#pixxett-api .method .method-example .table .table-container tr td.table-row-property,
-#pixxett-api .method .method-example .table .table-container tr th.table-row-property {
+#simple-slate-api .method .method-example .table .table-container tr td.table-row-property,
+#simple-slate-api .method .method-example .table .table-container tr th.table-row-property {
     width: 140px;
     font-weight: 600;
     text-align: right;
 }
-#pixxett-api .method .method-example .table .table-container tr:first-child td,
-#pixxett-api .method .method-example .table .table-container tr:first-child th {
+#simple-slate-api .method .method-example .table .table-container tr:first-child td,
+#simple-slate-api .method .method-example .table .table-container tr:first-child th {
     padding-top: 16px;
 }
 
-#pixxett-api .method .method-example code .token.keyword, #pixxett-api .method .method-example pre .token.keyword {
+#simple-slate-api .method .method-example code .token.keyword, #simple-slate-api .method .method-example pre .token.keyword {
     color: #ebde68;
 }
-#pixxett-api .method .method-example .table .table-footer {
+#simple-slate-api .method .method-example .table .table-footer {
     padding: 14px 20px;
     border-top: 1px solid #333848;
     font-size: 13px;
     text-shadow: none;
 }
-#pixxett-api .method .method-example code .namespace,
-#pixxett-api .method .method-example code .token.punctuation,
-#pixxett-api .method .method-example pre .namespace,
-#pixxett-api .method .method-example pre .token.punctuation {
+#simple-slate-api .method .method-example code .namespace,
+#simple-slate-api .method .method-example code .token.punctuation,
+#simple-slate-api .method .method-example pre .namespace,
+#simple-slate-api .method .method-example pre .token.punctuation {
     color: #d0d4d7;
 }
-#pixxett-api .method .method-example code .token.cdata,
-#pixxett-api .method .method-example code .token.comment,
-#pixxett-api .method .method-example code .token.doctype,
-#pixxett-api .method .method-example code .token.prolog,
-#pixxett-api .method .method-example pre .token.cdata,
-#pixxett-api .method .method-example pre .token.comment,
-#pixxett-api .method .method-example pre .token.doctype,
-#pixxett-api .method .method-example pre .token.prolog {
+#simple-slate-api .method .method-example code .token.cdata,
+#simple-slate-api .method .method-example code .token.comment,
+#simple-slate-api .method .method-example code .token.doctype,
+#simple-slate-api .method .method-example code .token.prolog,
+#simple-slate-api .method .method-example pre .token.cdata,
+#simple-slate-api .method .method-example pre .token.comment,
+#simple-slate-api .method .method-example pre .token.doctype,
+#simple-slate-api .method .method-example pre .token.prolog {
     color: #777279;
 }
-#pixxett-api .method .method-example code .token.operator,
-#pixxett-api .method .method-example pre .token.operator {
+#simple-slate-api .method .method-example code .token.operator,
+#simple-slate-api .method .method-example pre .token.operator {
     color: #f099a6;
 }
-#pixxett-api .method .method-example code .token.json-key,
-#pixxett-api .method .method-example code .token.string,
-#pixxett-api .method .method-example pre .token.json-key,
-#pixxett-api .method .method-example pre .token.string {
+#simple-slate-api .method .method-example code .token.json-key,
+#simple-slate-api .method .method-example code .token.string,
+#simple-slate-api .method .method-example pre .token.json-key,
+#simple-slate-api .method .method-example pre .token.string {
     color: #c1ef65;
 }
 
@@ -1436,7 +1413,7 @@ div.drag_bar {
 .active-code {
 display: block !important;
 }
-#pixxett-api .include-prompt code.language-bash:before {
+#simple-slate-api .include-prompt code.language-bash:before {
     content: '$ ';
     color: #939da3;
 }
@@ -1479,16 +1456,16 @@ display: block !important;
 .font-w-900 {
     font-weight: 900;
 }
-#pixxett-api .method .method-copy .color1 p, #pixxett-api .method .method-example .color1 p {
+#simple-slate-api .method .method-copy .color1 p, #simple-slate-api .method .method-example .color1 p {
     font-size: 24px;
     margin-top: 15px;
     margin-bottom: 15px;
     line-height: inherit;
 }
-#pixxett-api .method .method-copy .color1 p em {
+#simple-slate-api .method .method-copy .color1 p em {
     font-style: italic;
 }
-#pixxett-api .method .method-copy .color1.color2 p{
+#simple-slate-api .method .method-copy .color1.color2 p{
     font-family: 'Roboto', sans-serif;
 }
 h1, .h1, h2, .h2, h3, .h3 {
@@ -1575,7 +1552,7 @@ blockquote.darker-grey:before {
 blockquote.darker-grey footer, blockquote.darker-grey small, blockquote.darker-grey .small {
     margin-top: 15px;
 }
-#pixxett-api blockquote.darker-grey p, blockquote.darker-grey footer {
+#simple-slate-api blockquote.darker-grey p, blockquote.darker-grey footer {
     color: #ffffff;
 }
 
@@ -1614,7 +1591,7 @@ blockquote.solid-pink .quote:before {
     display: block;
     line-height: 70px;
 }
-#pixxett-api blockquote.solid-pink p {
+#simple-slate-api blockquote.solid-pink p {
     width: 50%;
     margin: auto;
     text-align: center;
@@ -1691,7 +1668,7 @@ blockquote.darker-blue .quote-right:before {
     display: block;
     line-height: 70px;
 }
-#pixxett-api blockquote.darker-blue p {
+#simple-slate-api blockquote.darker-blue p {
     width: 50%;
     margin: auto;
     text-align: center;
@@ -1763,7 +1740,7 @@ blockquote.pull-quotes .quote-right:before {
     display: block;
     line-height: 70px;
 }
-#pixxett-api blockquote.pull-quotes p {
+#simple-slate-api blockquote.pull-quotes p {
     width: 50%;
     margin: auto;
     text-align: center;
@@ -1816,7 +1793,7 @@ blockquote.card-quotes .quote:before {
     line-height: 70px;
 }
 
-#pixxett-api blockquote.card-quotes p {
+#simple-slate-api blockquote.card-quotes p {
     width: 69%;
     text-align: left;
     line-height: 1.8;
@@ -1845,7 +1822,7 @@ blockquote.card-quotes footer, blockquote.card-quotes small, blockquote.card-quo
     text-align: right;
     opacity: .9;
 }
-#pixxett-api blockquote p {
+#simple-slate-api blockquote p {
     margin-top: 0px;
     color: #333;
 }
